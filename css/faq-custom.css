@@ -1,0 +1,1 @@
+.hsdd-qa-container{transition:max-height .5s ease-out}.faq-content{max-height:0;overflow:hidden;transition:max-height .5s ease-out}.hsdd-container[data-mode=list] .hsdd-qa-container{max-height:inherit}.hsdd-container[data-mode=dropdown] .hsdd-qa-container{display:none;overflow:hidden}

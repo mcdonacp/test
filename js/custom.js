@@ -1,0 +1,5 @@
+jQuery(function($){var mediaQueryConditionMet=function(){if(window.matchMedia('(max-width: 760px)')){return true;}
+return false;}
+$('.how-it-works__little-things-button').on('click',function(){if(!mediaQueryConditionMet()){return;}
+$(this).addClass('is-active');$('.how-it-works__big-things-button').removeClass('is-active');$('.how-it-works__little-things-column').addClass('is-active');$('.how-it-works__big-things-column').removeClass('is-active');});$('.how-it-works__big-things-button').on('click',function(){if(!mediaQueryConditionMet()){return;}
+$(this).addClass('is-active');$('.how-it-works__little-things-button').removeClass('is-active');$('.how-it-works__little-things-column').removeClass('is-active');$('.how-it-works__big-things-column').addClass('is-active');});});jQuery(function($){$('.categories-list').find('article').each(function(){var el=$(this);el.attr('data-product-category',el.find('h3 > a').text());});});
